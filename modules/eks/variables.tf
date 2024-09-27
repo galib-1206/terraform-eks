@@ -27,3 +27,8 @@ variable "node_group_name" {
   description = "Name of the node group"
   type        = string
 }
+
+variable "fargate_profile_name" {
+  description = "The name of the Fargate profile"
+  type        = string
+}
